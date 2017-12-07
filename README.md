@@ -6,16 +6,16 @@ I like to use Raspberry Pi to run some interesting code. But it is really annoyi
 ![Raspberry PI 3 with OLED](https://github.com/haoranstone/visualPi/blob/master/pictures/model.jpg)
 
 
-#Hardware connection  
-  | OLED   -----------    PI 3   |  
-  | GND       <---->      GND    |  
-  | VCC       <---->      VCC    |  
-  | SCL       <---->    SPI0.SCL | (Header 23)  
-  | SDA       <---->    SPI0.MOSI| (Header 19)  
-  | RST       <---->    GPIO5    |  
-  | D/C       <---->    GPIO1    |  
+# Hardware connection  
+  | OLED    -------      PI 3   |  
+  | GND      <---->      GND    |  
+  | VCC      <---->      VCC    |  
+  | SCL      <---->    SPI0.SCL | (Header 23)  
+  | SDA      <---->    SPI0.MOSI| (Header 19)  
+  | RST      <---->    GPIO5    |  
+  | D/C      <---->    GPIO1    |  
   
-  #Compile and configuration
+# Compile and configuration
   ```shell
   cd /opt/visualpi
   make 
