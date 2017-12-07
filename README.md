@@ -17,8 +17,8 @@ I like to use Raspberry Pi to run some interesting code. But it is really annoyi
   
 # Compile and configuration
   ```shell
-  cd /opt/visualpi
+  cd /opt/visualpi/
   make 
-  echo "/opt/visualpi" >> /etc/rc.local
+  echo "/opt/visualpi/visualpi" >> /etc/rc.local
   ```
   after configuration, OLED will be launched once the system is powered up. IP of eth0 and wlan0 will be freshed every 5 seconds.
